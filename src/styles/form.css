@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+  .form_section_container {
+    @apply flex flex-col space-y-5 lg:w-[288px];
+  }
+  .form_label {
+    @apply font-semibold text-[#303746] text-base;
+  }
+  .form_text_field {
+    @apply border border-[#707070] focus:outline-none w-full lg:w-[288px] h-[40px] rounded-md px-2;
+  }
+  .form_textarea_field {
+    @apply border border-[#707070] focus:outline-none w-full rounded-md px-2 py-2 h-[103.41px];
+  }
+  .form_input_container {
+    @apply flex flex-col space-y-1;
+  }
+  .form_input_error {
+    @apply text-red-500 text-xs font-medium;
+  }
+}
